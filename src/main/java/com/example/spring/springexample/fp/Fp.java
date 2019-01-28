@@ -43,6 +43,8 @@ public class Fp {
 
 		five(list, a -> b -> a * b < 0);
 
+		five(list, a -> b -> a + b < 0);
+
 		five(list, a -> b -> a - b == 0).forEach(System.out::println);
 
 //		Optional<String> ziemo = Optional.ofNullable("elo ziemo");
