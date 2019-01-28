@@ -42,6 +42,8 @@ public class Fp {
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 78);
 
 
+		five(list, a -> b -> a + b < 0);
+
 		five(list, a -> b -> a - b == 0).forEach(System.out::println);
 
 //		Optional<String> ziemo = Optional.ofNullable("elo ziemo");
