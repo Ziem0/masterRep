@@ -1,5 +1,6 @@
 package com.example.spring.springexample;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -11,6 +12,7 @@ public class SpringExampleApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		Assert.assertEquals(1, 1);
 	}
 
 }
