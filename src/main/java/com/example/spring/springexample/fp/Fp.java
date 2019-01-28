@@ -41,8 +41,7 @@ public class Fp {
 	public static void main(String[] args) {
 		List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 78);
 
-
-		five(list, a -> b -> a + b < 0);
+		five(list, a -> b -> a * b < 0);
 
 		five(list, a -> b -> a - b == 0).forEach(System.out::println);
 
