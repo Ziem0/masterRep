@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>FORMIk</title>
+</head>
+<body>
+
+    <form method="post" th:action="@{/form}" action="#" th:object="${clean}">
+        <input type="text" th:field="*{name}">
+        <input type="submit" value="SUBMIT">
+    </form>
+
+</body>
+</html>
